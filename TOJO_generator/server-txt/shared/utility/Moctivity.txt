@@ -1,0 +1,7 @@
+Moctivity
+SharedBaseResponse
+std::string extensionId
+bool enabled
+std::string url
+bool newIndicator
+std::string handleId

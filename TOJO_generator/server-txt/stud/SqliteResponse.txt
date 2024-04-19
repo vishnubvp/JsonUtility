@@ -1,0 +1,3 @@
+SqliteResponse
+int sqliteErrorCode
+std::string sqliteErrorMessage

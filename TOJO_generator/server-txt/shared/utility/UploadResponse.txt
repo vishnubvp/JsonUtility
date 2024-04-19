@@ -1,0 +1,5 @@
+UploadResponse
+SharedBaseResponse
+std::string fileLocation
+std::string fileName
+std::string webLocation

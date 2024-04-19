@@ -1,0 +1,4 @@
+LoginResponse
+SharedBaseResponse
+bool isUserChanged
+UserCredentialsPtr user

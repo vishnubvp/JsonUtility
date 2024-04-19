@@ -1,0 +1,7 @@
+Address
+std::string id
+std::string city
+std::string state
+std::string country
+std::string firstline
+std::string zipCode

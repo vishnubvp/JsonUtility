@@ -1,0 +1,8 @@
+SharedBaseResponse
+int originalHttpStatusCode
+int errorCode	//see \ref BBMResponseCode for error code definitions
+int code  		//code is minor error code return by mbaas, currently only used by sdk
+bool isUseErrorMessageFromServer
+long cacheUpdateTime
+std::string errorMessage
+bool isCacheValid
