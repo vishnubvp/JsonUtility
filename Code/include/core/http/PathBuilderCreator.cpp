@@ -6,7 +6,7 @@
 #include "core/http/PathBuilder.h"
 #include "core/log/Logger.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     PathBuilderPtr PathBuilderCreator::ConstructBuilderByType(RestConst::PathBuilderType builderType,
                                                               const std::vector<std::string> &pathList)

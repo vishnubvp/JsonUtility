@@ -10,7 +10,7 @@
 
 JsonIncludeList
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
 
     ClassName::ClassName()

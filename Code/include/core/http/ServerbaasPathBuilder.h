@@ -1,11 +1,3 @@
-/**
- *  Copyright © 
- *
- * @file    ServerbaasPathBuilder.h
- * @author  
- * @brief   
- *
- */
 
 #ifndef VsboardMobile_ServerbaasPathBuilder_h
 #define VsboardMobile_ServerbaasPathBuilder_h
@@ -14,7 +6,7 @@
 #include "core/util/BaseInclude.h"
 #include "core/util/TypeDefs.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(ServerbaasPathBuilder);
     

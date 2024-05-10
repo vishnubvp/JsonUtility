@@ -7,7 +7,7 @@
 
 #include "core/util/SingletonBase.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(RestHeaderField);
     

@@ -1,10 +1,4 @@
-//
-//  LocalRestResponse.h
-//  
-//
-//  Created by
-//  Copyright (c) 2024
-//
+
 
 #ifndef TDKUtils_LocalRestResponse_h
 #define TDKUtils_LocalRestResponse_h
@@ -18,7 +12,7 @@
 #include "core/http//RestHeaderField.h"
 #include "core/http//RestCookie.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(RestResponse);
     

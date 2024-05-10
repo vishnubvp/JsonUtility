@@ -1,10 +1,4 @@
-//
-//  RestCookie.h
-//  
-//
-//  Created 
-//  Copyright (c) 2024
-//
+
 
 #ifndef VsboardMobile_RestCookie_h
 #define VsboardMobile_RestCookie_h
@@ -13,7 +7,7 @@
 
 #include "core/util/BaseInclude.h"
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
     
     enum CookieField
     {

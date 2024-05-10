@@ -28,7 +28,7 @@
 #include "shared/rest/RestHeaderManager.h"
 #include "shared/rest/RestHelper.h"
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
     
     std::mutex RestManager::s_CallbackMutex;
     sf_callback_RequestAuthorizationFailed RestManager::s_requestAuthFailedCallback = nullptr;

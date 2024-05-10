@@ -1,14 +1,14 @@
 
 
-#ifndef _VSTestSDK_CourseCardTileViewRestManager_H
-#define _VSTestSDK_CourseCardTileViewRestManager_H
+#ifndef _BBMobileSDK_CourseCardTileViewRestManager_H
+#define _BBMobileSDK_CourseCardTileViewRestManager_H
 
 #include "core/util/BaseInclude.h"
 #include "core/util/TypeDefs.h"
 
 #include "shared/rest/CourseCardTileViewRestManager.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(RestResponse)
 
@@ -32,4 +32,4 @@ namespace VSTestSDK
 
 }
 
-#endif // _VSTestSDK_CourseCardTileViewRestManager_H
+#endif // _BBMobileSDK_CourseCardTileViewRestManager_H

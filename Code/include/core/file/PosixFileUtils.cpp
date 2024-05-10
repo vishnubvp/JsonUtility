@@ -20,7 +20,7 @@
 #include "core/util/TimeUtils.h"
 #include "shared/const/SharedInternalConst.h"
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
     
     static const char* FILE_OPEN_MODE_READ_BINARY = "rb";
     static const char* FILE_OPEN_MODE_WRITE_BINARY = "wb";

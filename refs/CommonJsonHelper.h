@@ -1,11 +1,4 @@
-/**
- *Copyright © 2017 HelloWorld. All rights reserved.
- *
- * @file    CommonJsonHelper.h
- * @author  Yi Zheng
- * @brief
- *
- */
+
 
 #ifndef HelloWorld_CommonJsonHelper_h
 #define HelloWorld_CommonJsonHelper_h

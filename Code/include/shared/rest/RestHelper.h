@@ -1,5 +1,3 @@
-
-
 #ifndef RESTHELPER_H_
 #define RESTHELPER_H_
 
@@ -11,9 +9,9 @@
 #include "core/log/Logger.h"
 #include "core/util/SingletonBase.h"
 #include "core/util/TypeDefs.h"
-#include "shared/businessLogic/SharedServiceMgrUtils.h"
+#include "shared/bussinessLogic/SharedServiceMgrUtils.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
 
     BB_FORWARD_DECLARE(LocalRestResponse)

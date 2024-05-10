@@ -7,7 +7,7 @@
 #include <mutex>
 #include <condition_variable>
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
 
     
 #define SD_TIME_NOW 0ull

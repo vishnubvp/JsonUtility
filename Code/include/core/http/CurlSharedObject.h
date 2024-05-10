@@ -1,11 +1,4 @@
-/**
- *  
- *
- * @file    CurlSharedObject.h
- * @author  
- * @brief
- *
- */
+
 
 #ifndef VsboardMobile_CurlSharedObject_h
 #define VsboardMobile_CurlSharedObject_h
@@ -15,7 +8,7 @@
 
 #include "curl.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(CurlSharedObject)
     

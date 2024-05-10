@@ -12,7 +12,7 @@
 #include "core/util/BaseInclude.h"
 #include "core/util/TypeDefs.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     class FileObj;
     GLB_SMART_PTR_DEF(FileObj)

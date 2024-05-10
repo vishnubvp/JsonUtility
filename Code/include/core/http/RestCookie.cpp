@@ -8,7 +8,7 @@
 #include "core/log/Logger.h"
 #include "core/util/StringUtils.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     RestCookie::RestCookie()
     : Name()

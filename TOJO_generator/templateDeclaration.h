@@ -5,8 +5,8 @@
  *
  */
 
-#ifndef _VSTestSDK_ClassName_H
-#define _VSTestSDK_ClassName_H
+#ifndef _BBMobileSDK_ClassName_H
+#define _BBMobileSDK_ClassName_H
 
 #include <memory>
 #include <string>
@@ -20,7 +20,7 @@
 #include "shared/util/ToJsonFieldController.h"
 
 IncludeList
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(ClassName)
 PtrDefList
@@ -43,4 +43,4 @@ JsonProtectedDeclaration
 
 }
 
-#endif // _VSTestSDK_ClassName_H
+#endif // _BBMobileSDK_ClassName_H

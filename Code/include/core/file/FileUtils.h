@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
     class FileUtils
     {
     public:

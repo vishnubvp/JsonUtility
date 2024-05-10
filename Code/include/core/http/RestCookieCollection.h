@@ -11,7 +11,7 @@
 
 #include "core/util/TypeDefs.h"
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
     
     BB_FORWARD_DECLARE(RestCookie);
     BB_FORWARD_DECLARE(RestCookieCollection);

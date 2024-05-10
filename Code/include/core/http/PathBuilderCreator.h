@@ -1,11 +1,3 @@
-/**
- *  Copyright © 
- *
- * @file    PathBuilderCreator.h
- * @author
- * @brief
- *
- */
 
 #ifndef VsboardMobile_PathBuilderCreator_h
 #define VsboardMobile_PathBuilderCreator_h
@@ -14,7 +6,7 @@
 #include "core/util/TypeDefs.h"
 #include "shared/const/SharedInternalConst.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(PathBuilder);
     

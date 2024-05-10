@@ -3,7 +3,7 @@
 #include "core/dispatch/semaphore.h"
 #include "core/dispatch/log.h"
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
         
     semaphore_::semaphore_(int count)
     : count_(count)

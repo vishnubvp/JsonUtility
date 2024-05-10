@@ -1,7 +1,7 @@
 
 #include "core/http/RestHeaderField.h"
 
-using namespace VSTestSDK;
+using namespace BBMobileSDK;
 
 RestHeaderField::RestHeaderField()
 : Name("")

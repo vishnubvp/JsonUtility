@@ -1,17 +1,11 @@
-//
-//  CookieUtils.hpp
-//  
-//
-//  Created 
-//  Copyright
-//
+
 
 #ifndef CookieUtils_hpp
 #define CookieUtils_hpp
 
 #include "core/util/BaseInclude.h"
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
     BB_FORWARD_DECLARE(RestCookie);
     
     class CookieUtils

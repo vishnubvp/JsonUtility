@@ -3,7 +3,7 @@
 #include "core/http/PathBuilder.h"
 #include "core/util/StringUtils.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     PathBuilder::PathBuilder() {}
     

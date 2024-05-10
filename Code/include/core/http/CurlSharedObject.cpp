@@ -6,7 +6,7 @@
 #include "core/util/TimeUtils.h"
 #include "shared/const/SharedInternalConst.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     CurlSharedObjectPtr CurlSharedObject::GetInstance()
     {

@@ -1,17 +1,10 @@
-//
-//  RestHeaderField.h
-//  
-//
-//  Created 
-//  Copyright (c) 20124
-//
 
 #ifndef VsboardMobile_RestHeaderField_h
 #define VsboardMobile_RestHeaderField_h
 
 #include "core/util/StringUtils.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     
     namespace RestHeaderKeys

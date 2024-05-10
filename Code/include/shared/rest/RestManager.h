@@ -14,7 +14,7 @@
 #include "shared/callbacks/ProgressMeterCallback.h"
 #include "shared/callbacks/SharedCredSvcCallback.h"
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
     
     BB_FORWARD_DECLARE(UtilityServiceManager);
     BB_FORWARD_DECLARE(SharedCredSvcMgr);

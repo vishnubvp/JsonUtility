@@ -5,7 +5,7 @@
 #include "core/http/RestCookie.h"
 #include "core/util/StringUtils.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
 
     const std::string CookieUtils::StringFromCookies(const RestCookieVPtr &cookies)

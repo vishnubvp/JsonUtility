@@ -16,13 +16,13 @@
 
 #ifdef _WIN32
     #include "core/win32/WinFileUtils.h"
-    using FileUtilsImpl = VSTestSDK::WinFileUtils;
+    using FileUtilsImpl = BBMobileSDK::WinFileUtils;
 #else
     #include "core/file/PosixFileUtils.h"
-    using FileUtilsImpl = VSTestSDK::PosixFileUtils;
+    using FileUtilsImpl = BBMobileSDK::PosixFileUtils;
 #endif  // _WIN32
 
-namespace VSTestSDK {
+namespace BBMobileSDK {
 
     bool FileUtils::ClearFile(const std::string & path)
     {

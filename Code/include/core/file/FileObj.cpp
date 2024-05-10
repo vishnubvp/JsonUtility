@@ -8,7 +8,7 @@
 #include "shared/model/utility/FileMetadata.h"
 
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     
     FileObj::FileObj()

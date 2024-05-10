@@ -4,7 +4,7 @@
 #include "core/http/CookieUtils.h"
 #include "core/http/RestCookie.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     
     RestCookieCollection::RestCookieCollection()
@@ -18,7 +18,7 @@ namespace VSTestSDK
         *this = rhs;
     }
     
-    RestCookieCollection& RestCookieCollection::operator=(const VSTestSDK::RestCookieCollection &rhs)
+    RestCookieCollection& RestCookieCollection::operator=(const BBMobileSDK::RestCookieCollection &rhs)
     {
         if (&rhs != this)
         {

@@ -1,11 +1,4 @@
-/**
- *  Copyright © 
- *
- * @file    PathBuilder.h
- * @author  
- * @brief   Path builder used to build the url path
- *
- */
+
 
 #ifndef VsboardMobile_PathBuilder_h
 #define VsboardMobile_PathBuilder_h
@@ -14,7 +7,7 @@
 #include "core/util/TypeDefs.h"
 #include "shared/const/SharedInternalConst.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(PathBuilder);
     

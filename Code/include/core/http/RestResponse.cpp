@@ -1,17 +1,10 @@
-//
-//  LocalRestResponse.cpp
-//  TDKUtils
-//
-//  Created b
-//  Copyright (c) 2024 .
-//
 
 
 #include "core/http/RestResponse.h"
 
 #include "core/http/CookieUtils.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     void RestResponse::Initialization()
     {

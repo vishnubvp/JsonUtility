@@ -6,17 +6,16 @@
 #include "core/util/Helpers.h"
 #include "core/util/InternalConstData.h"
 #include "core/log/Logger.h"
-#include "shared/businessLogic/SharedCredSvcMgr.h"
-#include "shared/businessLogic/UserSessionManager.h"
-#include "shared/businessLogic/UtilityServiceManager.h"
+#include "shared/bussinessLogic/SharedCredSvcMgr.h"
+// #include "shared/businessLogic/UserSessionManager.h"
+// #include "shared/businessLogic/UtilityServiceManager.h"
 #include "shared/const/SharedConst.h"
-#include "shared/daoManager/SqliteResponse.h"
+//#include "shared/daoManager/SqliteResponse.h"
 #include "shared/model/credential/SharedCredentials.h"
-#include "shared/model/credential/SharedInstitution.h"
-#include "shared/model/credential/SharedLoginResponse.h"
+//#include "shared/model/credential/SharedLoginResponse.h"
 #include "shared/model/SharedBaseResponse.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     SessionRenewer::SessionRenewer()
     : renewingSession_(new semaphore_)
@@ -92,27 +91,27 @@ namespace VSTestSDK
 
 		SharedCredSvcMgr credentialsServiceMgr;
         
-        SharedInstitutionPtr institution = credentialsServiceMgr.GetMySchool();
+        //SharedInstitutionPtr institution = credentialsServiceMgr.GetMySchool();
         
         RestCookieCollectionPtr cookies = UserSessionManager::GetInstance().GetCookies();
         // ForceToWeb, return 401 directly
-        if (!institution || institution->GetIsForceWebLogin()) {
-            if (!institution)
-                Logger::debug("renew failed because empty institution");
-            else
-                Logger::debug("renew failed because it is force to web school");
+        // if (!institution || institution->GetIsForceWebLogin()) {
+        //     if (!institution)
+        //         Logger::debug("renew failed because empty institution");
+        //     else
+        //         Logger::debug("renew failed because it is force to web school");
             
-            resp->SetErrorCode(ResponseCodeNeedAuthorization);
+        //     resp->SetErrorCode(ResponseCodeNeedAuthorization);
             
-            UtilityServiceManager::SendDataToNewRelic(resp,NewRelicTransactionType::NR_SESSION_EXPIRY_LOGOUT);
-            if (nullptr != cookies &&
-                !cookies->IsEmpty())
-            {
-                credentialsServiceMgr.Logout();
-            }
+        //     UtilityServiceManager::SendDataToNewRelic(resp,NewRelicTransactionType::NR_SESSION_EXPIRY_LOGOUT);
+        //     if (nullptr != cookies &&
+        //         !cookies->IsEmpty())
+        //     {
+        //         credentialsServiceMgr.Logout();
+        //     }
             
-            return resp;
-        }
+        //     return resp;
+        // }
 
         SharedCredentialsPtr credentials = credentialsServiceMgr.GetMyCredentials();
 

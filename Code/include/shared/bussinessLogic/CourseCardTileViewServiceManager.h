@@ -4,10 +4,11 @@
 #define CourseCardTileViewSERVICEMANAGER_H_
 
 #include "core/util/BaseInclude.h"
-#include "core/util/TypeDefs.h"
-#include "shared/const/SharedConst.h"
+#include "TypeDefs.h"
+#include "SharedConst.h"
+#include "CourseCardTileView.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     BB_FORWARD_DECLARE(CourseCardTileView)
     BB_FORWARD_DECLARE(CourseCardTileViewRestManager)

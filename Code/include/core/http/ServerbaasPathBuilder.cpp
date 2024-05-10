@@ -1,18 +1,11 @@
-/**
 
- *
- * @file    ServerbaasPathBuilder.cpp
- * @author  
- * @brief   Path builder used to build the Serverbaas url path   
- *
- */
 
 #include "core/http/ServerbaasPathBuilder.h"
 
 #include "core/config/SharedMobileConfig.h"
 #include "shared/const/SharedInternalConst.h"
 
-namespace VSTestSDK
+namespace BBMobileSDK
 {
     ServerbaasPathBuilder::ServerbaasPathBuilder()
     : PathBuilder()
