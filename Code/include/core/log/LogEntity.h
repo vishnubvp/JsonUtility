@@ -1,4 +1,11 @@
-
+/**
+ *Copyright © 2018 HelloWorld. All rights reserved.
+ *
+ * @file    LogEntity.h
+ * @author  Yi Zheng
+ * @brief
+ *
+ */
 
 #ifndef VsboardMobile_LogEntity_h
 #define VsboardMobile_LogEntity_h
